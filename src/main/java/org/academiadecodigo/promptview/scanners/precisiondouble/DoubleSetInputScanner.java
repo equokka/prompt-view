@@ -1,4 +1,4 @@
-package org.academiadecodigo.bootcamp.scanners.precisiondouble;
+package org.academiadecodigo.promptview.scanners.precisiondouble;
 
 import java.util.Scanner;
 import java.util.Set;

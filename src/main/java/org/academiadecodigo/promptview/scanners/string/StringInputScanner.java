@@ -1,6 +1,6 @@
-package org.academiadecodigo.bootcamp.scanners.string;
+package org.academiadecodigo.promptview.scanners.string;
 
-import org.academiadecodigo.bootcamp.InputScanner;
+import org.academiadecodigo.promptview.InputScanner;
 
 import java.io.PrintStream;
 import java.util.Scanner;

@@ -1,7 +1,7 @@
 package examples.precisiondouble;
 
-import org.academiadecodigo.bootcamp.Prompt;
-import org.academiadecodigo.bootcamp.scanners.precisiondouble.DoubleSetInputScanner;
+import org.academiadecodigo.promptview.Prompt;
+import org.academiadecodigo.promptview.scanners.precisiondouble.DoubleSetInputScanner;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,7 +1,7 @@
 package examples.string;
 
-import org.academiadecodigo.bootcamp.Prompt;
-import org.academiadecodigo.bootcamp.scanners.string.PasswordInputScanner;
+import org.academiadecodigo.promptview.Prompt;
+import org.academiadecodigo.promptview.scanners.string.PasswordInputScanner;
 
 public class PasswordInputScannerTest {
 

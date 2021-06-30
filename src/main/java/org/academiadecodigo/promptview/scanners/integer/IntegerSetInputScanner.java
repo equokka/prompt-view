@@ -1,4 +1,4 @@
-package org.academiadecodigo.bootcamp.scanners.integer;
+package org.academiadecodigo.promptview.scanners.integer;
 
 import java.util.Scanner;
 import java.util.Set;

@@ -1,7 +1,7 @@
 package examples.precisiondouble;
 
-import org.academiadecodigo.bootcamp.Prompt;
-import org.academiadecodigo.bootcamp.scanners.precisiondouble.DoubleRangeInputScanner;
+import org.academiadecodigo.promptview.Prompt;
+import org.academiadecodigo.promptview.scanners.precisiondouble.DoubleRangeInputScanner;
 
 public class DoubleRangeInputScannerTest {
 

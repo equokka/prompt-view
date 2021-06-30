@@ -1,4 +1,4 @@
-package org.academiadecodigo.bootcamp;
+package org.academiadecodigo.promptview;
 
 import java.io.PrintStream;
 import java.util.Scanner;

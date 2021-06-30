@@ -1,11 +1,11 @@
-package org.academiadecodigo.bootcamp.scanners.integer;
+package org.academiadecodigo.promptview.scanners.precisiondouble;
 
-import org.academiadecodigo.bootcamp.InputScanner;
+import org.academiadecodigo.promptview.InputScanner;
 
 import java.io.PrintStream;
 import java.util.Scanner;
 
-public class IntegerInputScanner implements InputScanner<Integer> {
+public class DoubleInputScanner implements InputScanner<Double> {
 
     private String message = "Insert a number: ";
     private String error = "That is not a valid number!";
@@ -38,12 +38,12 @@ public class IntegerInputScanner implements InputScanner<Integer> {
     }
 
     @Override
-    public Integer getUserInput(Scanner input) {
-        return input.nextInt();
+    public Double getUserInput(Scanner input) {
+        return input.nextDouble();
     }
 
     @Override
     public boolean hasValidInput(Scanner input) {
-        return input.hasNextInt();
+        return input.hasNextDouble();
     }
 }

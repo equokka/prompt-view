@@ -1,7 +1,7 @@
 package examples.integer;
 
-import org.academiadecodigo.bootcamp.Prompt;
-import org.academiadecodigo.bootcamp.scanners.integer.IntegerInputScanner;
+import org.academiadecodigo.promptview.Prompt;
+import org.academiadecodigo.promptview.scanners.integer.IntegerInputScanner;
 
 public class IntegerInputScannerTest {
 

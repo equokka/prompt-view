@@ -1,13 +1,13 @@
-package org.academiadecodigo.bootcamp.scanners.precisiondouble;
+package org.academiadecodigo.promptview.scanners.integer;
 
 import java.util.Scanner;
 
-public class DoubleRangeInputScanner extends DoubleInputScanner {
+public class IntegerRangeInputScanner extends IntegerInputScanner {
 
-    private double min;
-    private double max;
+    private int min;
+    private int max;
 
-    public DoubleRangeInputScanner(double min, double max) {
+    public IntegerRangeInputScanner(int min, int max) {
         this.min = min;
         this.max = max;
     }
@@ -19,15 +19,15 @@ public class DoubleRangeInputScanner extends DoubleInputScanner {
             return false;
         }
 
-        Double value = input.nextDouble();
+        Integer value = input.nextInt();
         return value >= min && value <= max;
     }
 
     @Override
-    public Double getUserInput(Scanner input) {
+    public Integer getUserInput(Scanner input) {
 
         // The token was already consumed by hasValidInput,
         // so we need to get it from the last matcher
-        return Double.valueOf(input.match().group());
+        return Integer.valueOf(input.match().group());
     }
 }

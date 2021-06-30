@@ -1,7 +1,7 @@
 package examples.string;
 
-import org.academiadecodigo.bootcamp.Prompt;
-import org.academiadecodigo.bootcamp.scanners.string.StringSetInputScanner;
+import org.academiadecodigo.promptview.Prompt;
+import org.academiadecodigo.promptview.scanners.string.StringSetInputScanner;
 
 import java.util.HashSet;
 import java.util.Set;
